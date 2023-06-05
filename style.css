@@ -656,8 +656,8 @@ position: absolute;
 background-color: inherit;
 border: none;
 cursor: pointer;
-top: 1950%;
-left: -90%;
+top: 0;
+left: 0;
 position: absolute;
 margin: auto;
 }
