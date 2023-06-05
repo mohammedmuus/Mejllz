@@ -658,7 +658,7 @@ border: none;
 cursor: pointer;
 top: 0;
 left: 0;
-position: absolute;
+position: relative;
 margin: auto;
 }
 }
