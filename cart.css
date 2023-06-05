@@ -1,0 +1,78 @@
+footer {
+  background-color: inherit;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #333;
+  margin-right: 5px;
+}
+
+.footer-link:hover {
+  color: green !important;
+}
+
+
+.footer-year {
+  font-weight: bold;
+}
+
+body{
+
+background: #e7dfcf !important;
+}
+
+.row {
+top: 4.5%;
+position: relative;
+}
+
+.btn{
+background-color: green;
+border-color: green;
+float: right;
+}
+
+.btn:hover{
+background-color: green;
+border-color: green;
+
+}
+.left-si{
+left: 36%;
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: green;
+  border-color: green;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: green;
+  border-color: green;
+}
+
+@media screen and (max-width: 1025px) {
+.fab-links{
+right: 50px;
+gap: 10px;
+top: 0px;
+}
+
+.left-si{
+left: 0 !important;
+}
+.row {
+top: 6.0%;
+
+}
+
+}

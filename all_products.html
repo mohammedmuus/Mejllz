@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MËĴLLZ</title>
+
+  <link rel="stylesheet" href="cdn1.css">
+  <link rel='stylesheet' href='cdn.css'>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="all-products.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/4.0.0/iconfont/material-icons.min.css">
+
+
+
+
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+
+<div class="header">
+		<a class="menu-icon" href="#" id="menuIcon">
+			<svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+			</svg>
+		</a>
+    <a class="logo" href="index.html">
+        <img class="logo" src="Svg-logo.svg" /></a>
+		<div class="header-menu" id="menuList">
+			<a href="about.html">About</a>
+			<a href="all_products.html">All Products</a>
+			<a href="contact.html">Contact</a>
+		</div>
+		<div class="header-icons">
+			<svg id="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+			</svg>
+          		<div id="search-bar" class="search-bar">
+    <input type="text" placeholder="Search" id="search-input">
+   <div id="search-suggestions" class="search-suggestions"></div>
+  </div>
+<!--			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">-->
+<!--				<path d="M437.02 330.98c-27.883-27.882-61.071-48.523-97.281-61.018C378.521 243.251 404 198.548 404 148 404 66.393 337.607 0 256 0S108 66.393 108 148c0 50.548 25.479 95.251 64.262 121.962-36.21 12.495-69.398 33.136-97.281 61.018C26.629 379.333 0 443.62 0 512h40c0-119.103 96.897-216 216-216s216 96.897 216 216h40c0-68.38-26.629-132.667-74.98-181.02zM256 256c-59.551 0-108-48.448-108-108S196.449 40 256 40s108 48.448 108 108-48.449 108-108 108z" />-->
+<!--			</svg>-->
+			<a href="cart.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208.955 208.955">
+				<path d="M190.85 200.227L178.135 58.626a7.5 7.5 0 00-7.47-6.829h-26.221V39.971c0-22.04-17.93-39.971-39.969-39.971-22.038 0-39.966 17.931-39.966 39.971v11.826H38.27a7.5 7.5 0 00-7.47 6.829L18.035 200.784a7.5 7.5 0 007.47 8.17h157.946a7.5 7.5 0 007.399-8.727zM79.509 39.971c0-13.769 11.2-24.971 24.967-24.971 13.768 0 24.969 11.202 24.969 24.971v11.826H79.509V39.971zm-45.8 153.984L45.127 66.797h19.382v13.412a7.5 7.5 0 007.5 7.5 7.5 7.5 0 007.5-7.5V66.797h49.936v13.412a7.5 7.5 0 007.5 7.5 7.5 7.5 0 007.5-7.5V66.797h19.364l11.418 127.158H33.709z" />
+            </svg> <span id="cart-count" class="cart-count">0</span>
+</a>
+		</div>
+	</div>
+	<div class="mySwiper">
+		<div class="main-wrapper swiper-wrapper">
+			<div class="main swiper-slide" id="beach">
+				<div class="cardtain">
+  <section class="card">
+    <div class="product-image">
+      <img class="m2" src="im2.png" alt="OFF-white Red Edition" draggable="false" />
+    </div>
+    <div class="product-info">
+      <h2>MËĴLLZ Perfume</h2>
+      <p>Unleash your inner allure.</p>
+      <div class="price">45,000 Tzs</div>
+    </div>
+    <div class="btn">
+      <a href="cart.html"><button class="buy-btn">Buy Now</button></a>
+      <button class="fav">
+        <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208.955 208.955" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+          <path d="M190.85 200.227L178.135 58.626a7.5 7.5 0 00-7.47-6.829h-26.221V39.971c0-22.04-17.93-39.971-39.969-39.971-22.038 0-39.966 17.931-39.966 39.971v11.826H38.27a7.5 7.5 0 00-7.47 6.829L18.035 200.784a7.5 7.5 0 007.47 8.17h157.946a7.5 7.5 0 007.399-8.727zM79.509 39.971c0-13.769 11.2-24.971 24.967-24.971 13.768 0 24.969 11.202 24.969 24.971v11.826H79.509V39.971zm-45.8 153.984L45.127 66.797h19.382v13.412a7.5 7.5 0 007.5 7.5 7.5 7.5 0 007.5-7.5V66.797h49.936v13.412a7.5 7.5 0 007.5 7.5 7.5 7.5 0 007.5-7.5V66.797h19.364l11.418 127.158H33.709z" />
+        </svg>
+      </button>
+    </div>
+  </section>
+  <section class="card card-blue">
+    <div class="product-image">
+      <img class="m2" src="im2.png" alt="OFF-white Blue Edition" draggable="false" />
+    </div>
+    <div class="product-info">
+      <h2>MËĴLLZ Oud Perfume</h2>
+      <p>Unleash your inner allure.</p>
+      <div class="price">20,000 Tzs</div>
+    </div>
+    <div class="btn">
+      <a href="cart.html"><button  class="buy-btn">Buy Now</button></a>
+      <button class="fav">
+       <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208.955 208.955" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+          <path d="M190.85 200.227L178.135 58.626a7.5 7.5 0 00-7.47-6.829h-26.221V39.971c0-22.04-17.93-39.971-39.969-39.971-22.038 0-39.966 17.931-39.966 39.971v11.826H38.27a7.5 7.5 0 00-7.47 6.829L18.035 200.784a7.5 7.5 0 007.47 8.17h157.946a7.5 7.5 0 007.399-8.727zM79.509 39.971c0-13.769 11.2-24.971 24.967-24.971 13.768 0 24.969 11.202 24.969 24.971v11.826H79.509V39.971zm-45.8 153.984L45.127 66.797h19.382v13.412a7.5 7.5 0 007.5 7.5 7.5 7.5 0 007.5-7.5V66.797h49.936v13.412a7.5 7.5 0 007.5 7.5 7.5 7.5 0 007.5-7.5V66.797h19.364l11.418 127.158H33.709z" />
+        </svg>
+
+      </button>
+    </div>
+  </section>
+<!--                    <section class="card card-blue">-->
+<!--    <div class="product-image">-->
+<!--      <img src="https://i.ibb.co/0JKpmgd/blue.png" alt="OFF-white Blue Edition" draggable="false" />-->
+<!--    </div>-->
+<!--    <div class="product-info">-->
+<!--      <h2>Nike X OFF-white</h2>-->
+<!--      <p>Air Jordan 1 Retro High "Off-White - UNC" sneakers</p>-->
+<!--      <div class="price">$1599</div>-->
+<!--    </div>-->
+<!--    <div class="btn">-->
+<!--      <button class="buy-btn">Buy Now</button>-->
+<!--      <button class="fav">-->
+<!--       <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208.955 208.955" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">-->
+<!--          <path d="M190.85 200.227L178.135 58.626a7.5 7.5 0 00-7.47-6.829h-26.221V39.971c0-22.04-17.93-39.971-39.969-39.971-22.038 0-39.966 17.931-39.966 39.971v11.826H38.27a7.5 7.5 0 00-7.47 6.829L18.035 200.784a7.5 7.5 0 007.47 8.17h157.946a7.5 7.5 0 007.399-8.727zM79.509 39.971c0-13.769 11.2-24.971 24.967-24.971 13.768 0 24.969 11.202 24.969 24.971v11.826H79.509V39.971zm-45.8 153.984L45.127 66.797h19.382v13.412a7.5 7.5 0 007.5 7.5 7.5 7.5 0 007.5-7.5V66.797h49.936v13.412a7.5 7.5 0 007.5 7.5 7.5 7.5 0 007.5-7.5V66.797h19.364l11.418 127.158H33.709z" />-->
+<!--        </svg>-->
+
+<!--      </button>-->
+<!--    </div>-->
+<!--  </section>-->
+<!--                  <section class="card">-->
+<!--    <div class="product-image">-->
+<!--      <img src="https://i.ibb.co/cNWqxGx/red.png" alt="OFF-white Red Edition" draggable="false" />-->
+<!--    </div>-->
+<!--    <div class="product-info">-->
+<!--      <h2>Nike X OFF-white</h2>-->
+<!--      <p>The 10: Air Jordan 1 off-white - Chicago</p>-->
+<!--      <div class="price">$999</div>-->
+<!--    </div>-->
+<!--    <div class="btn">-->
+<!--      <button class="buy-btn">Buy Now</button>-->
+<!--      <button class="fav">-->
+<!--        <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208.955 208.955" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">-->
+<!--          <path d="M190.85 200.227L178.135 58.626a7.5 7.5 0 00-7.47-6.829h-26.221V39.971c0-22.04-17.93-39.971-39.969-39.971-22.038 0-39.966 17.931-39.966 39.971v11.826H38.27a7.5 7.5 0 00-7.47 6.829L18.035 200.784a7.5 7.5 0 007.47 8.17h157.946a7.5 7.5 0 007.399-8.727zM79.509 39.971c0-13.769 11.2-24.971 24.967-24.971 13.768 0 24.969 11.202 24.969 24.971v11.826H79.509V39.971zm-45.8 153.984L45.127 66.797h19.382v13.412a7.5 7.5 0 007.5 7.5 7.5 7.5 0 007.5-7.5V66.797h49.936v13.412a7.5 7.5 0 007.5 7.5 7.5 7.5 0 007.5-7.5V66.797h19.364l11.418 127.158H33.709z" />-->
+<!--        </svg>-->
+<!--      </button>-->
+<!--    </div>-->
+<!--  </section>-->
+<!--                  <section class="card card-blue">-->
+<!--    <div class="product-image">-->
+<!--      <img src="https://i.ibb.co/0JKpmgd/blue.png" alt="OFF-white Blue Edition" draggable="false" />-->
+<!--    </div>-->
+<!--    <div class="product-info">-->
+<!--      <h2>Nike X OFF-white</h2>-->
+<!--      <p>Air Jordan 1 Retro High "Off-White - UNC" sneakers</p>-->
+<!--      <div class="price">$1599</div>-->
+<!--    </div>-->
+<!--    <div class="btn">-->
+<!--      <button class="buy-btn">Buy Now</button>-->
+<!--      <button class="fav">-->
+<!--       <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208.955 208.955" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">-->
+<!--          <path d="M190.85 200.227L178.135 58.626a7.5 7.5 0 00-7.47-6.829h-26.221V39.971c0-22.04-17.93-39.971-39.969-39.971-22.038 0-39.966 17.931-39.966 39.971v11.826H38.27a7.5 7.5 0 00-7.47 6.829L18.035 200.784a7.5 7.5 0 007.47 8.17h157.946a7.5 7.5 0 007.399-8.727zM79.509 39.971c0-13.769 11.2-24.971 24.967-24.971 13.768 0 24.969 11.202 24.969 24.971v11.826H79.509V39.971zm-45.8 153.984L45.127 66.797h19.382v13.412a7.5 7.5 0 007.5 7.5 7.5 7.5 0 007.5-7.5V66.797h49.936v13.412a7.5 7.5 0 007.5 7.5 7.5 7.5 0 007.5-7.5V66.797h19.364l11.418 127.158H33.709z" />-->
+<!--        </svg>-->
+
+<!--      </button>-->
+<!--    </div>-->
+<!--  </section>-->
+<!--                  <section class="card">-->
+<!--    <div class="product-image">-->
+<!--      <img src="https://i.ibb.co/cNWqxGx/red.png" alt="OFF-white Red Edition" draggable="false" />-->
+<!--    </div>-->
+<!--    <div class="product-info">-->
+<!--      <h2>Nike X OFF-white</h2>-->
+<!--      <p>The 10: Air Jordan 1 off-white - Chicago</p>-->
+<!--      <div class="price">$999</div>-->
+<!--    </div>-->
+<!--    <div class="btn">-->
+<!--      <button class="buy-btn">Buy Now</button>-->
+<!--      <button class="fav">-->
+<!--        <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208.955 208.955" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">-->
+<!--          <path d="M190.85 200.227L178.135 58.626a7.5 7.5 0 00-7.47-6.829h-26.221V39.971c0-22.04-17.93-39.971-39.969-39.971-22.038 0-39.966 17.931-39.966 39.971v11.826H38.27a7.5 7.5 0 00-7.47 6.829L18.035 200.784a7.5 7.5 0 007.47 8.17h157.946a7.5 7.5 0 007.399-8.727zM79.509 39.971c0-13.769 11.2-24.971 24.967-24.971 13.768 0 24.969 11.202 24.969 24.971v11.826H79.509V39.971zm-45.8 153.984L45.127 66.797h19.382v13.412a7.5 7.5 0 007.5 7.5 7.5 7.5 0 007.5-7.5V66.797h49.936v13.412a7.5 7.5 0 007.5 7.5 7.5 7.5 0 007.5-7.5V66.797h19.364l11.418 127.158H33.709z" />-->
+<!--        </svg>-->
+<!--      </button>-->
+<!--    </div>-->
+<!--  </section>-->
+<!--                  <section class="card card-blue">-->
+<!--    <div class="product-image">-->
+<!--      <img src="https://i.ibb.co/0JKpmgd/blue.png" alt="OFF-white Blue Edition" draggable="false" />-->
+<!--    </div>-->
+<!--    <div class="product-info">-->
+<!--      <h2>Nike X OFF-white</h2>-->
+<!--      <p>Air Jordan 1 Retro High "Off-White - UNC" sneakers</p>-->
+<!--      <div class="price">$1599</div>-->
+<!--    </div>-->
+<!--    <div class="btn">-->
+<!--      <button class="buy-btn">Buy Now</button>-->
+<!--      <button class="fav">-->
+<!--       <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208.955 208.955" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">-->
+<!--          <path d="M190.85 200.227L178.135 58.626a7.5 7.5 0 00-7.47-6.829h-26.221V39.971c0-22.04-17.93-39.971-39.969-39.971-22.038 0-39.966 17.931-39.966 39.971v11.826H38.27a7.5 7.5 0 00-7.47 6.829L18.035 200.784a7.5 7.5 0 007.47 8.17h157.946a7.5 7.5 0 007.399-8.727zM79.509 39.971c0-13.769 11.2-24.971 24.967-24.971 13.768 0 24.969 11.202 24.969 24.971v11.826H79.509V39.971zm-45.8 153.984L45.127 66.797h19.382v13.412a7.5 7.5 0 007.5 7.5 7.5 7.5 0 007.5-7.5V66.797h49.936v13.412a7.5 7.5 0 007.5 7.5 7.5 7.5 0 007.5-7.5V66.797h19.364l11.418 127.158H33.709z" />-->
+<!--        </svg>-->
+
+<!--      </button>-->
+<!--    </div>-->
+<!--  </section>-->
+<!--                  <section class="card">-->
+<!--    <div class="product-image">-->
+<!--      <img src="https://i.ibb.co/cNWqxGx/red.png" alt="OFF-white Red Edition" draggable="false" />-->
+<!--    </div>-->
+<!--    <div class="product-info">-->
+<!--      <h2>Nike X OFF-white</h2>-->
+<!--      <p>The 10: Air Jordan 1 off-white - Chicago</p>-->
+<!--      <div class="price">$999</div>-->
+<!--    </div>-->
+<!--    <div class="btn">-->
+<!--      <button class="buy-btn">Buy Now</button>-->
+<!--      <button class="fav">-->
+<!--        <svg class="svg" id="i-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208.955 208.955" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">-->
+<!--          <path d="M190.85 200.227L178.135 58.626a7.5 7.5 0 00-7.47-6.829h-26.221V39.971c0-22.04-17.93-39.971-39.969-39.971-22.038 0-39.966 17.931-39.966 39.971v11.826H38.27a7.5 7.5 0 00-7.47 6.829L18.035 200.784a7.5 7.5 0 007.47 8.17h157.946a7.5 7.5 0 007.399-8.727zM79.509 39.971c0-13.769 11.2-24.971 24.967-24.971 13.768 0 24.969 11.202 24.969 24.971v11.826H79.509V39.971zm-45.8 153.984L45.127 66.797h19.382v13.412a7.5 7.5 0 007.5 7.5 7.5 7.5 0 007.5-7.5V66.797h49.936v13.412a7.5 7.5 0 007.5 7.5 7.5 7.5 0 007.5-7.5V66.797h19.364l11.418 127.158H33.709z" />-->
+<!--        </svg>-->
+<!--      </button>-->
+<!--    </div>-->
+<!--  </section>-->
+
+
+
+</div>
+
+			</div>
+
+		</div>
+	</div>
+
+
+
+		<div class="fab-container">
+  <div class="fab" id="fab">
+    <i class="fa fa-plus"></i>
+  </div>
+
+  <div class="fab-links" id="fab-links">
+
+    <a href="#" class="fab-link">
+      <i class="fa fa-twitter"></i>
+    </a>
+    <a href="#" class="fab-link">
+      <i class="fa fa-instagram"></i>
+    </a>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-content">
+    <a href="https://muus-portfolio.000webhostapp.com/" class="footer-link">&copy; Muus</a>
+    <span class="footer-year"></span>
+  </div>
+</footer>
+
+
+<!-- partial -->
+  <script src='cdn.js'></script>
+  <script  src="script.js"></script>
+	<script>
+	VanillaTilt.init(document.querySelectorAll(".card"), {
+  max: 25,
+  speed: 1000,
+  transition: true,
+})</script>
+	<script src="https://kit.fontawesome.com/042df7c3f0.js" crossorigin="anonymous"></script>
+	<script>
+
+document.addEventListener("DOMContentLoaded", function() {
+  var fabToggle = document.getElementById("fab");
+  var fabLinks = document.getElementById("fab-links");
+
+  fabToggle.addEventListener("click", function() {
+    fabLinks.classList.toggle("show");
+  });
+});
+
+
+</script>
+
+  	<script>
+  const menuIcon = document.getElementById("menuIcon");
+const menuList = document.querySelector(".header-menu");
+
+menuIcon.addEventListener("click", toggleMenu);
+
+function toggleMenu() {
+  menuList.classList.toggle("vertical-menu");
+}
+
+</script>
+<script>
+  // Get the footer year element
+  const yearElement = document.querySelector(".footer-year");
+
+  // Get the current year
+  const currentYear = new Date().getFullYear();
+
+  // Set the year in the footer
+  yearElement.textContent = currentYear.toString();
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const searchIcon = document.getElementById('search-icon');
+  const searchBar = document.getElementById('search-bar');
+  const searchInput = document.getElementById('search-input');
+  const searchSuggestions = document.getElementById('search-suggestions');
+  let selectedSuggestionIndex = -1;
+
+  searchIcon.addEventListener('click', function() {
+    if (searchBar.style.display === 'none') {
+      searchBar.style.display = 'block';
+      searchInput.focus();
+    } else {
+      closeSearchBar();
+    }
+  });
+
+  searchInput.addEventListener('input', function() {
+    const searchTerm = searchInput.value;
+    selectedSuggestionIndex = -1;
+    displaySearchSuggestions(getSearchSuggestions(searchTerm));
+  });
+
+  searchInput.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+      if (selectedSuggestionIndex >= 0 && selectedSuggestionIndex < searchSuggestions.children.length) {
+        const selectedSuggestion = searchSuggestions.children[selectedSuggestionIndex];
+        searchInput.value = selectedSuggestion.textContent;
+        // Handle the selected suggestion (e.g., navigate to the suggested page)
+        handleSelectedSuggestion(selectedSuggestion);
+      } else {
+        const searchTerm = searchInput.value;
+        performSearch(searchTerm);
+      }
+    } else if (event.key === 'ArrowUp' && selectedSuggestionIndex > 0) {
+      event.preventDefault();
+      selectPreviousSuggestion();
+    } else if (event.key === 'ArrowDown' && selectedSuggestionIndex < searchSuggestions.children.length - 1) {
+      event.preventDefault();
+      selectNextSuggestion();
+    } else if (event.key === 'Escape') {
+      closeSearchBar();
+    }
+  });
+
+  searchSuggestions.addEventListener('click', function(event) {
+    const selectedSuggestion = event.target.closest('.suggestion-item');
+    if (selectedSuggestion) {
+      searchInput.value = selectedSuggestion.textContent;
+      closeSearchBar();
+      // Handle the selected suggestion (e.g., navigate to the suggested page)
+      handleSelectedSuggestion(selectedSuggestion);
+    }
+  });
+
+  function closeSearchBar() {
+    searchBar.style.display = 'none';
+    searchInput.value = '';
+    searchSuggestions.innerHTML = '';
+  }
+
+  function displaySearchSuggestions(suggestions) {
+    searchSuggestions.innerHTML = '';
+    if (suggestions.length > 0) {
+      suggestions.forEach(function(suggestion, index) {
+        const suggestionItem = document.createElement('div');
+        suggestionItem.textContent = suggestion;
+        suggestionItem.classList.add('suggestion-item');
+        if (index === selectedSuggestionIndex) {
+          suggestionItem.classList.add('selected');
+        }
+        searchSuggestions.appendChild(suggestionItem);
+      });
+      searchSuggestions.style.display = 'block';
+    } else {
+      searchSuggestions.style.display = 'none';
+    }
+  }
+
+  function selectNextSuggestion() {
+    selectedSuggestionIndex++;
+    updateSelectedSuggestion();
+  }
+
+  function selectPreviousSuggestion() {
+    selectedSuggestionIndex--;
+    updateSelectedSuggestion();
+  }
+
+  function updateSelectedSuggestion() {
+    const suggestionItems = searchSuggestions.children;
+    for (let i = 0; i < suggestionItems.length; i++) {
+      const suggestionItem = suggestionItems[i];
+      if (i === selectedSuggestionIndex) {
+        suggestionItem.classList.add('selected');
+        searchInput.value = suggestionItem.textContent;
+        searchInput.focus();
+      } else {
+        suggestionItem.classList.remove('selected');
+      }
+    }
+  }
+
+function handleSelectedSuggestion(selectedSuggestion) {
+  const suggestionText = selectedSuggestion.textContent;
+  // Perform the desired action based on the selected suggestion
+  // For example, redirect the user to the suggested page
+  window.location.href = 'http://localhost:63342/MEJLLZ-PERFUME/index.html' + encodeURIComponent(suggestionText);
+}
+
+
+  function getSearchSuggestions(searchTerm) {
+    // Replace this with your logic to fetch or generate search suggestions based on the entered term
+    const suggestions = ['Perfume', 'Cart', 'Buy'];
+    return suggestions.filter(function(suggestion) {
+      return suggestion.toLowerCase().includes(searchTerm.toLowerCase());
+    });
+  }
+
+  function performSearch(searchTerm) {
+    // Handle the search term (perform search or show results)
+    console.log('Search term:', searchTerm);
+  }
+});
+
+
+</script>
+<script>
+
+    const favButton = document.querySelector('.fav');
+const cartCount = document.querySelector('#cart-count');
+
+let count = 0;
+favButton.addEventListener('click', () => {
+  count++;
+  cartCount.textContent = count;
+});
+
+</script>
+</div>
+
+</body>
+</html>

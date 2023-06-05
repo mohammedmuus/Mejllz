@@ -1,0 +1,65 @@
+@media screen and (max-width: 720px) {
+  .button-wrapper .swiper-button + .swiper-button {
+    margin-left: 0 !important;}
+
+     .button-wrapper {
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    justify-content: space-between !important;
+    padding: 0 60px !important;
+  }
+
+   .center .bottle-bg {
+    width: 260px !important;
+    height: 390px !important;
+    top: 650px !important;
+    left: -110px !important;
+    position: relative !important;
+  }
+
+    .center {
+    margin-left: 0 !important;
+    margin-bottom: 56px !important;
+    top : 30px !important;
+    position: relative !important;
+  }
+
+  .main-content .more-menu {
+    justify-content: center !important;
+  }
+
+    .main {
+    flex-direction: column-reverse !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+    .left-side {
+    text-align: center !important;
+    max-width: 450px !important;
+  }
+
+    .left-side {
+    text-align: center !important;
+    max-width: 450px !important;
+  }
+
+    .container {
+    height: 100% !important;
+    max-height: 100% !important;
+  }
+
+    .header {
+    width: calc(100% + 20px) !important;
+    margin-left: -10px !important;
+  }
+
+    .button-wrapper {
+    padding: 0 20px !important;
+  }
+
+  .header-menu {
+    display: none !important;
+  }
+}
