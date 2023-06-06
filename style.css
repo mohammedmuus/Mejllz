@@ -135,7 +135,7 @@ body {
 }
 
 button {
-  color: #000;
+  color: #000 !important;
 }
 .mySwiper {
   display: flex;
@@ -314,9 +314,9 @@ button {
 background-color: inherit;
 border: none;
 cursor: pointer;
-top: 690px;
-left: -1356px;
-position: absolute;
+top: 0;
+left: 0;
+position: relative;
 }
 
 .wishlist:hover {
