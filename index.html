@@ -20,7 +20,7 @@
 <div class="container">
 
 
-<div class="header">  
+<div class="header sticky-header">  
 
 
 		<button class="menu-icon" href="#" id="menuIcon">
@@ -386,6 +386,19 @@ function handleSelectedSuggestion(selectedSuggestion) {
   }
 });
 
+
+</script>
+<script>
+	// Smooth scroll to anchor links when clicking on internal links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
 
 </script>
 </div>
