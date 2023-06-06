@@ -314,8 +314,8 @@ button {
 background-color: inherit;
 border: none;
 cursor: pointer;
-top: 0;
-left: 0;
+top: 300px;
+left: -200px;
 position: relative;
 }
 
@@ -665,7 +665,7 @@ position: absolute;
 }
 .wishlist{
 
-top: 300px;
+top: 400px;
 left: -100px;
 position: relative;
 }
