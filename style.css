@@ -666,8 +666,8 @@ position: absolute;
 .wishlist{
 
 top: 0;
-left: 0;
-position: absolute;
+left: -100px;
+position: relative;
 }
 }
 
