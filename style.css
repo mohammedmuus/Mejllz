@@ -116,6 +116,15 @@ body {
   margin-right: 20px;
 }
 
+.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  /* Add any other styles you want for the header */
+}
+
 .left-side {
   display: flex;
   flex-direction: column;
