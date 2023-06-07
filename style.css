@@ -137,6 +137,10 @@ body {
 button {
   color: #000 !important;
 }
+
+button #continueButton{
+  color: inherit;
+}
 .mySwiper {
   display: flex;
   flex-grow: 1;
