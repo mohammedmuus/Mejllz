@@ -138,9 +138,7 @@ button {
   color: #000 !important;
 }
 
-button #continueButton{
-  color: inherit;
-}
+
 .mySwiper {
   display: flex;
   flex-grow: 1;
@@ -678,7 +676,7 @@ height: 30px;
 }
 .wishlist{
 
-top: 500px;
+top: 430px;
 left: -100px;
 position: relative;
 }
