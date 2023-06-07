@@ -665,9 +665,27 @@ position: absolute;
 }
 .wishlist{
 
-top: 400px;
+top: 500px;
 left: -100px;
 position: relative;
+}
+.main-header {
+  font-size: 10px;
+}
+.main-title {
+   font-size: 20px;
+}
+.main-subtitle {
+   font-size: 15px;
+}
+.main-subtitle {
+   font-size: 15px;
+}
+.main-content__title{
+font-size:18px;	
+}
+.main-content__subtitle{
+font-size:11px !important;	
 }
 }
 
