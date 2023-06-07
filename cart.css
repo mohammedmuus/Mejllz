@@ -74,5 +74,7 @@ left: 0 !important;
 top: 6.0%;
 
 }
-
+button .btn{
+  color: white;
+}
 }
