@@ -38,6 +38,7 @@ position: relative;
 .btn{
 background-color: green;
 border-color: green;
+color: white !important;
 float: right;
 }
 
